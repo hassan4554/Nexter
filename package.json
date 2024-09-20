@@ -1,0 +1,26 @@
+{
+  "name": "Nexter",
+  "version": "1.0.0",
+  "description": "Landing page for nexter",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss CSS/style.css -w",
+    "start": "npm-run-all --parallel watch:sass",
+
+    "compile:sass": "node-sass sass/main.scss CSS/style_comp.css",
+    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' css/style_comp.css -o css/style_prefixer.css ",
+    "compress:css": "node-sass css/style_prefixer.css css/style.css --output-style compressed ",
+    "build:css": "npm-run-all compile:sass prefix:css compress:css"
+  },
+  "author": "Hassan",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "concat": "^1.0.3",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^11.0.0"
+  }
+}
