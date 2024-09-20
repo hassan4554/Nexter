@@ -23,7 +23,7 @@ Check out the live version of **Nexter** : [Nexter Website](https://nexter-gilt-
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/nexter.git
+   git clone https://github.com/hassan4554/Nexter.git
    ```
 2. Open the folder:
    ```bash
