@@ -11,7 +11,7 @@ Welcome to **Nexter** – a static website designed for people who want to buy t
 
 ## 🚀 Demo
 
-Check out the live version of **Nexter**: [Nexter Website](https://nexter-gilt-beta.vercel.app/)
+Check out the live version of **Nexter** : [Nexter Website](https://nexter-gilt-beta.vercel.app/)
 
 ## 🛠️ Technologies Used
 
@@ -26,14 +26,25 @@ Check out the live version of **Nexter**: [Nexter Website](https://nexter-gilt-b
    git clone https://github.com/your-username/nexter.git
    ```
 2. Open the folder:
-  ```bash
-  cd nexter
-  ```
+   ```bash
+   cd nexter
+   ```
 3. Install Dependencies:
-  ```bash
-  npm install
-  ```
+   ```bash
+   npm install
+   ```
 4. Run Project:
-  ```bash
-  npm start
-  ```
+   ```bash
+   npm start
+   ```
+## 📝 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🌟 Show Your Support
+  If you like this project, please give it a ⭐ on GitHub!
+
+## 📧 Contact
+For any inquiries, feel free to reach out at **hassanmehmood.here@gmail.com**
+
+
+Made with ❤️ by **Hassan Mehmood**
